@@ -6,7 +6,14 @@ export default {
       {
         name: 'title',
         title: 'Title',
-        type: 'string'
+        type: 'string',
+        required: true
+      },
+      {
+        name: 'description',
+        title: 'Description',
+        type: 'text',
+        required: true
       },
       {
         name: 'slug',
@@ -21,6 +28,7 @@ export default {
         name: 'mainImage',
         title: 'Main image',
         type: 'image',
+        required: true,
         options: {
           hotspot: true
         }
